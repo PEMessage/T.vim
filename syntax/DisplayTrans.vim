@@ -16,6 +16,6 @@ syntax match content  #\%d124.*\%d124# contains=conceal124
 highlight link word     pandocTitleComment
 highlight link phonetic hsType
 highlight link star     WarningMsg
-highlight link content  ToolbarLine
+highlight link content  String
 
 setlocal conceallevel=2 concealcursor =nic
